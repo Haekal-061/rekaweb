@@ -38,7 +38,7 @@ function App() {
         showConfirmButton: false,
         timer: 2000,
         toast: true,
-        position: 'top-end'
+        position: 'center'
       });
     }
 
@@ -64,9 +64,9 @@ function App() {
       title: 'Berhasil!',
       text: `${qty} ${itemCart.nama} telah masuk keranjang.`,
       showConfirmButton: false,
-      timer: 1500,
+      timer: 1000,
       toast: true,
-      position: 'top-end'
+      position: 'center'
     });
   };
 

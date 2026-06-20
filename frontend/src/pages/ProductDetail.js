@@ -147,7 +147,7 @@ const DetailProduk = ({ tambahKeKeranjang }) => {
 
           <div style={{ flex: '1', display: 'flex', flexDirection: 'column' }}>
             <h1 style={{ margin: '0 0 10px 0', fontSize: '28px', color: '#111' }}>{produk.name}</h1>
-            <h2 style={{ margin: '0 0 15px 0', fontSize: '24px', color: '#111' }}>{formatHarga(produk.price)}</h2>
+            <h2 className="product-price product-price-large" style={{ margin: '0 0 15px 0' }}>{formatHarga(produk.price)}</h2>
             <div style={{ display: 'flex', gap: '3px', marginBottom: '30px' }}>
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={18} fill="#f59e0b" color="#f59e0b" />
